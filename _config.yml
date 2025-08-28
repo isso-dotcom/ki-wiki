@@ -9,6 +9,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # lokal: theme aus Gemfile überschreibt remote_theme
 theme: minimal-mistakes-jekyll
 
+minimal_mistakes_skin: "air"
+
 plugins:
   - jekyll-include-cache
 
