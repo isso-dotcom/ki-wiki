@@ -3,7 +3,6 @@ description: "Ein Minimalbeispiel mit Minimal Mistakes"
 baseurl: ""
 url: "https://DominikHirsch.github.io/How-To-Wiki"
 
-theme: minimal-mistakes-jekyll  # lokal wird diese Version genutzt
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
