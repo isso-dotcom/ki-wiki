@@ -1,10 +1,7 @@
-# source "https://rubygems.org"
-#
-# gem "jekyll", "~> 3.9"
-# gem "minimal-mistakes-jekyll"
-# gem "kramdown-parser-gfm", "~> 1.1"
-
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
+gem "jekyll", "~> 4.2"
+gem "minimal-mistakes-jekyll", "~> 4.24.0"
+gem "jekyll-include-cache"
+gem "jekyll-feed" # optional
+gem "jekyll-seo-tag" # optional
