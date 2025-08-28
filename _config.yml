@@ -1,6 +1,6 @@
 title: "How-To-Wiki"
 description: "Ein Minimalbeispiel mit Minimal Mistakes"
-baseurl: ""
+baseurl: "/How-To-Wiki" # the subpath of your site, e.g. /blog/
 url: "https://DominikHirsch.github.io/How-To-Wiki"
 
 # nur remote_theme verwenden für GitHub Actions
