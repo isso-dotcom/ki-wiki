@@ -4,6 +4,7 @@ baseurl: "" # bleibt leer
 url: "https://DominikHirsch.github.io/How-To-Wiki"
 
 theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # aktuelle Version anpassen
 
 # Navigation aktivieren
 plugins:
