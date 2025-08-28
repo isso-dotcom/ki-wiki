@@ -3,8 +3,11 @@ description: "Ein Minimalbeispiel mit Minimal Mistakes"
 baseurl: ""
 url: "https://DominikHirsch.github.io/How-To-Wiki"
 
-theme: minimal-mistakes-jekyll
+# nur remote_theme verwenden für GitHub Actions
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# lokal: theme aus Gemfile überschreibt remote_theme
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-include-cache
