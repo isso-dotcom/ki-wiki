@@ -1,19 +1,17 @@
 title: "How-To-Wiki"
 description: "Ein Minimalbeispiel mit Minimal Mistakes"
-baseurl: "" # bleibt leer
+baseurl: ""
 url: "https://DominikHirsch.github.io/How-To-Wiki"
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0" # aktuelle Version anpassen
+theme: minimal-mistakes-jekyll  # lokal wird diese Version genutzt
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Navigation aktivieren
 plugins:
   - jekyll-include-cache
 
-# Suche aktivieren
 search: true
 search_full_content: true
 
-# Collections (für Seiten)
 collections:
   pages:
     output: true
