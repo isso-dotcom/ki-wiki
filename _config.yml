@@ -32,3 +32,5 @@ defaults:
       toc: true
       toc_label: "Inhalt"
       toc_sticky: true
+      sidebar:
+        nav: docs_sidebar
