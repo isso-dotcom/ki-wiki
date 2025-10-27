@@ -1,0 +1,14 @@
+---
+# YAML-Header für Jekyll
+---
+
+@import "minimal-mistakes/skins/air"; // dein Skin: wähle aus: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+@import "minimal-mistakes";
+
+@media (hover: hover) and (pointer: fine) {
+  .page__content {
+    p { font-size: 0.85rem; }
+    ul li, ol li { font-size: 0.85rem; margin-bottom: 0.125rem; }
+    .toc ul li, .toc ol li { font-size: inherit; margin-bottom: inherit; }
+  }
+}
