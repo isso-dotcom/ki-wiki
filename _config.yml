@@ -1,15 +1,11 @@
-title: "How-To-Wiki"
+title: "jekyll-wiki-template"
 description: "Ein Minimalbeispiel mit Minimal Mistakes"
-baseurl: "/How-To-Wiki" # the subpath of your site, e.g. /blog/
-url: "https://DominikHirsch.github.io/How-To-Wiki"
+baseurl: "/jekyll-wiki-template" # the subpath of your site, e.g. /blog/
+url: "https://DominikHirsch.github.io/jekyll-wiki-template"
 
-# nur remote_theme verwenden für GitHub Actions
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-# lokal: theme aus Gemfile überschreibt remote_theme
 theme: minimal-mistakes-jekyll
 
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-include-cache
@@ -34,3 +30,7 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: docs_sidebar
+        auto_expand: true  # alles ausgeklappt
+
+sass:
+  sass_dir: _sass
