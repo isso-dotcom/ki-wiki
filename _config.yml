@@ -4,7 +4,7 @@ baseurl: "/jekyll-wiki-template" # the subpath of your site, e.g. /blog/
 url: "https://DominikHirsch.github.io/jekyll-wiki-template"
 
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-include-cache
